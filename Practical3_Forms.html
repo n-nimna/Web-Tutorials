@@ -1,0 +1,153 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+     <form>
+        <style>
+        form {
+            border:1px solid black;
+            padding: 5px;
+            width: 400px;
+             } 
+        </style>
+           
+    <h1><b>Registration Form</b></h1>
+
+    <table>
+    <tr>
+        <td>First Name  </td>   
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Last Name  </td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Mobile Number </td>
+        <td><input type="number" name="mobile number"></td>
+    </tr>
+    <tr>
+        <td>Gender </td>
+        <td><input type="radio" name="gen"  value="Male">Male
+        <input type="radio" name="gen"  value="Female">Female</td>
+    </tr>
+    <tr>
+        <td>Email </td>
+        <td><input type="text"></td>
+    </tr>
+
+    <tr>
+        <td>Favourite Music </td>
+        <td><input type="radio" name="music" value="pop">POP
+        <input type="radio" name="music" value="rock">ROCK
+        <input type="radio" name="music" value="Other">Other</td>
+
+    </tr>
+    <tr>
+      <td >Additional Details </td>
+      <td><textarea id="additional details" name="additional details" row="15" cols="20"></textarea></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="agree" value="1" >I Agree to the terms and conditions</td>
+    </tr>
+    <tr>
+        <td><input type="submit" name="submit" value="Submit">
+        <input type="reset"  name="reset"  value="Reset"></td>
+    </tr>
+
+    </table>
+      
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+     <form>
+       <fieldset style= "width: 350px;">
+        <legend>
+            Car Registration
+        </legend>
+       
+           
+
+    <table>
+    <tr>
+        <td>Owner Name  </td>   
+        <td><input type="text" placeholder="Owner Name"></td>
+    </tr>
+    <tr>
+        <td>Email </td>
+        <td><input type="text" placeholder="Email"></td>
+    </tr>
+    <tr>
+        <td>Phone Number </td>
+        <td><input type="number" name="phone number" placeholder="Phone Number"></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td>
+            <select>
+                <option value="1">Sri Lanka</option>
+                <option value="2">Korea</option>
+            </select>
+        </td>
+    </tr>
+     <tr>
+        <td>Car Model  </td>
+        <td><input type="text"></td>
+    </tr>
+     <tr>
+        <td>Manufacture <br> Year</td>
+        <td>
+            <select>
+                <option value="">Select Year</option>
+                <option value="1">2022</option>
+                <option value="2">2023</option>
+            </select>
+        </td>
+     </tr>
+    <tr>
+        <td>Transmission</td>
+        <td><input type="radio" name="tran" value="Manual">Manual
+        <input type="radio" name="tran" value="Auto">Auto</td>
+    </tr>
+    <tr>
+     <td >Other</td>
+     <td><textarea id="other" name="other" row="15" cols="20"></textarea></td>
+     </tr>
+        
+     <tr>
+        <td colspan="2"><input type="checkbox" name="agree" value="1">I agree to the conditions and terms</td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td><input type="submit" name="submit" value="Submit">
+        <input type="reset"  name="reset"  value="Reset"></td>
+    </tr>
+
+    </table>
+      
+    </form>
+</fieldset>
+</body>
+</html>
