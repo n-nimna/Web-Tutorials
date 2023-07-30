@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commercet</title>
+    <link real="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="digi.jpg" alt="Image">
+      <br>
+      <br>
+      <br>
+      <table>
+          <tr>
+              <td colspan="3"><h1><ul><b><ul>Digital Items</ul></b></h1>
+              </td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td><div class="img2">
+                  <img src="cam.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="pho.webp">
+              </div></td>
+              <td><div class="img2">
+                  <img src="lap.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="mouse.jpg">
+              </div></td>
+          </tr>
+          <tr>
+              <td colspan="3"><h1><ul><b>Foods </b></ul></h1>
+              </td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td><div class="img2">
+                  <img src="pizza.webp">
+              </div></td>
+              <td><div class="img2">
+                  <img src="san.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="burg.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="juice.jpg">
+              </div></td>
+          </tr>
+          <tr>
+              <td colspan="3"><h1><ul><b>Clothes </b></ul></h1>
+              </td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td><div class="img2">
+                  <img src="coat.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="baby.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="frock.jpg">
+              </div></td>
+              <td><div class="img2">
+                  <img src="jurc.jpg">
+              </div></td>
+          </tr>
+      </table>
+</body>
+</html>
+
+
+
+
+
+nav {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  a:hover {
+    background-color: green;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  .img2{
+      height: 50px;
+      width:50px;
+  }
+  td {
+      width: 1000px;
+      height: 50px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
